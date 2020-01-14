@@ -7,10 +7,12 @@ class Tech extends Model {
         name: DataTypes.STRING
       },
       {
-        sequelize
+        sequelize,
+        tableName: "techs"
       }
     );
   }
+
   static associate(models) {
     this.belongsToMany(models.User, {
       foreignKey: "tech_id",
