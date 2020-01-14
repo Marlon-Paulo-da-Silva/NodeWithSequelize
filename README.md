@@ -1,3 +1,3 @@
 # Node With Sequelize
 
-### Aplicação NodeJS Com Sequelize utilizando o ORM Sequelize
+### Aplicação NodeJS Com SQL Postgree utilizando o ORM Sequelize
